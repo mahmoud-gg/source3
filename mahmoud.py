@@ -85,7 +85,7 @@ async def onerstart(event):
 @abbas.on(events.NewMessage)
 async def join_channel(event):
 	try :
-		await abbas(JoinChannelRequest('@DARK_COMMNUITY'))
+		await abbas(JoinChannelRequest('@S9_FG'))
 	except BaseException:
 		pass		
 @abbas.on(events.NewMessage)
